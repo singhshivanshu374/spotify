@@ -1,0 +1,220 @@
+*{
+    /* background-color: rgb(20, 20, 20); */
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(20, 20, 20);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sidebar{
+   position: fixed;
+   left: 0px;
+   top: 0px;
+   bottom: 0px;
+   width: 200px;
+   background-color: black;
+   padding: 20px;
+}
+.sidebar .logo {
+    margin-bottom: 50px;
+}
+.sidebar .navigation ul{
+    list-style: none;
+}
+.sidebar .navigation ul li a{
+    color: rgb(158, 152, 152);
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 800;
+}
+.sidebar .navigation ul li a:hover{
+    color: white;
+}
+.sidebar .navigation ul li a img{
+    font-size: 20px ;
+    margin-right: 10px;
+    
+}
+
+.Home_Page{
+    margin-top: 15px;
+    margin-left: 245px;
+    margin-bottom: 0px;}
+
+.topbar{
+ display: flex;
+ justify-content: safe;    
+}
+.Home_Page .navigation-bar ul li a{
+    background: solid;
+    background-color: aliceblue;
+    /* border-width: 200px; */
+    /* background-size: 100px; */
+    background-size: 30px;
+    font-size: 20px;
+    color: rgb(60, 59, 59);
+    text-decoration: none;    
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    /* border-top-left-radius: 10px; */
+}
+.topbar .prev-next-button button{
+   color: #7a7a7a ;
+   cursor: pointer;
+   width: 34px;
+   height: 34px;
+   border-radius: 100%;
+   font-size: 18px;
+   border: 0px;
+   background-color: #090909;
+   margin-right: 10px 
+}
+.preview2{
+    position: fixed;
+    height: 100px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgb(40, 38, 38);
+
+}
+.preview{
+    position: fixed;
+    bottom: 30px;
+    left:0px;
+    right:0px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.preview2 .preview button{
+    background-color: rgb(40, 38, 38);
+   
+    height: 0px;
+    border: 0px;
+}
+.preview1{
+    position: fixed;
+    color: azure;
+    font-weight: 400;
+    bottom: 20px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+}
+.photo{
+    position: fixed;
+    display: flex;
+    left: 20px;
+    bottom: 10px;
+    margin: 10px;
+    float: left;
+    color: white;
+    font-weight: 400;
+    align-items: flex-start;
+    justify-content: start;
+}
+.container2{
+    margin-left:250px;
+    margin-bottom: 50px;
+    left: 200px;
+    right: 0px;
+    top: 10px;
+    background-color: rgb(21, 19, 19);
+}
+#top{
+    color: aliceblue;
+    font-size: 35px;
+    font-weight: 600;
+    /* padding-top: 70px;
+    padding-left: 20px; */
+    font-family: sans-serif;
+}
+.conta{
+    background-color: #d769d487;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 7px;
+    height: 250px;
+    width: 47%;
+    float: left;
+}
+#pop{
+    color: aliceblue;
+    font-size: 35px;
+    font-weight: 600;
+    padding-top: 25px;
+    padding-left: 20px;
+} 
+.contb{
+    background-color: rgb(255 97 0);
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 7px;
+    height: 250px;
+    width: 47%;
+    float: right;
+}
+#browse{
+    color: aliceblue;
+    font-size: 35px;
+    font-weight: 600;
+    /* padding-top: 300px; */
+    /* padding-left: 20px; */
+}
+
+
+.pod{
+    background-color: #1a975b;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 7px;
+    height: 200px;
+    width: 275px;
+    float: left;
+}
+.made{
+    background-color: rgb(29 28 96);
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 7px;
+    height: 200px;
+    width: 275px;
+    float: left;
+}
+.chart{
+    background-color: #d769d487;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 7px;
+    height: 200px;
+    width: 275px;
+    float: left;
+}
+.release{
+    background-color: rgb(254 0 105);
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 7px;
+    height: 200px;
+    width: 275px;
+    float: left;
+}
+#same4{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 25px;
+    padding-left: 20px;
+
+}
+.flexbox{
+    display: flex;
+    justify-content: space-evenly;
+}

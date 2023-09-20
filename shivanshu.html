@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Replica</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="shivanshu.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <a href="#">
+                <img src="Spotify logo.png" alt="loading logo">
+            </a>
+        </div>
+
+        <div class="navigation bar">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="home"></span>
+                        <img src="home.svg" alt="loading Home"
+                        width="18px" height="18px">
+                        <span>Home</span>
+                    </a>
+                </li>
+                <br>
+                <li>
+                    <a href="#">
+                        <span class="search"></span>
+                        <img src="search-white.svg" alt="search it"
+                        width="18px" height="18px">
+                        <span>Search</span>
+                    </a>
+                </li>
+                <br>
+                <li>
+                    <a href="#">
+                        <span class="Your Library"></span>
+                        <img src="library.svg" alt="library"
+                        width="18px" height="18px">
+                        <span>Your Library</span>
+                    </a>
+                </li>
+                <br><br><br>
+
+                <li>
+                    <a href="#">
+                        <span class="Create Playlist"></span>
+                        <img src="Plus-small.svg" alt="plus"
+                        width="18px" height="18px">
+                        <span>Create Playlist</span>
+                    </a>
+                </li>
+                <br>
+                <li>
+                    <a href="#">
+                        <span class="Liked Song"></span>
+                        <img src="Heart.svg" alt="Liked"
+                        width="18px" height="18px">
+                        <span>Liked Song</span>
+                    </a>
+                </li>
+                <br>
+                <li>
+                    <a href="#">
+                        <span class="Your Episodes"></span>
+                        <img src="media-podcast.svg" alt="your episode"
+                        width="15px" height="15px">
+                        <span>Your Episodes</span>
+                    </a>
+                </li>
+                <br><br><br><br><br><br><br><br><br><br>
+                <li>
+                    <a href="#">
+                        <span class="install">
+                            <img src="download 2.svg" alt="download"
+                            width="15px" height="15px">
+                            <span>Install App</span>
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="Home_Page">
+        <div class="topbar">
+            <div class="prev-next-button">
+                <button type="button" class="prev">
+                    <img src="arrow-left.svg" alt="prev">
+                </button>
+                <button type="button" class="next">
+                    <img src="arrow-right.svg" alt="prev">
+                </button>
+            </div>
+            <div class="navigation-bar">
+                <ul>
+                    <li><a href="#">
+                        <span class="Search"></span>
+                        <img src="search.svg" alt="search"
+                        width="15px" height="15px">
+                        <span>Artists,songs,or podcasts____</span>
+                    </a>                        
+                    </li>
+                </ul>
+            </div>
+            <div class="preview2">
+              <div class="preview">
+               <div class="shuffle">
+                    <button type="button" class="shuffle">
+                        <img src="shuffle.svg" alt="shuffle">
+                    </button>
+                </div>
+                <div class="prev">
+            <button type="button" class="prev">
+                <img src="skip-previous.svg" alt="prev">
+            </button>
+            </div>
+            <div class="play">
+                <button type="button" class="play">
+                    <img src="play.svg" alt="play">
+                </button>
+            </div>
+            <div class="forward">
+                <button type="button" class="forward">
+                    <img src="skip-forward.svg" alt="forward">
+                </button>
+            </div>
+            <div class="repeat">
+                <button type="button" class="repeat">
+                    <img src="repeat-all.svg" alt="repeat">
+                </button>
+        </div>
+        <div class="preview1">
+            <p>2:11</p>
+            <button type="button" class="time-bar">
+                <img src="time-bar.svg" alt="time-bar">
+            </button>
+            <p>2:42</p>
+        </div>
+        <div class="photo">
+          <img src="data:image/jpeg;base64,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" alt="photo"
+          width="70px">
+          <h>
+          <br>  Dreaming On
+          <br>  NETFLIX
+          </h>         
+        </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class ="container2" >
+    <div id="top">your top genres</div>
+
+    <div class="conta">
+        <div id="pop"> Pop</div>
+    </div>
+
+    <div class="contb">
+        <div id="pop">Hip-Hop</div>
+    </div>
+
+    <div id="browse">Browse all</div>
+
+    <div class="flexbox">            
+        <div class="pod" >
+            <div id="same4"> Podcasts</div>
+        </div>
+        <div class="made" >
+            <div id="same4"> Made For You</div>
+        </div>
+        <div class="chart" >
+            <div id="same4"> Charts</div>
+        </div>
+        <div class="release" >
+            <div id="same4"> New Release</div>
+            
+        </div>
+    </div>
+
+
+</div>
+</body>
+</html>
